@@ -1,0 +1,12 @@
+required : 
+nodejs v >18 #https://nodejs.org/en/download/package-manager
+
+npm install
+run ui test : npm run e2e:chrome or npx cypress run --browser chrome --headed --spec tests/ui/*
+run api test : npm run api
+
+
+Read
+https://docs.cypress.io/api/table-of-contents
+https://docs.cypress.io/guides/guides/command-line
+https://learn.cypress.io/advanced-cypress-concepts/integration-and-api-tests

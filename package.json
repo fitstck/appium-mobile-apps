@@ -1,0 +1,17 @@
+{
+  "name": "testing-f",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "e2e:chrome": "cypress run --browser chrome --headed --spec tests/ui/*",
+    "api": "cypress run --spec tests/api/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^13.10.0",
+    "typescript": "^5.4.5"
+  }
+}
